@@ -45,8 +45,6 @@ body {
 	position: absolute;
     margin-top: -320px;
     margin-left: 347px;
-    height: 230px;
-    width: 8px;
 }
 
 .health-img {
@@ -152,11 +150,20 @@ body {
 }
 
 .section-title {
-	background: #a7a9ab;
+	/*background: #a7a9ab;*/
+	background: linear-gradient(90deg, #a7a9ab 98%, #00b8f1 2%);
 	color: #fff;
 	font-family: 'Kaushan Script', sans-serif;
 	font-size: 34px;
 	padding: 10px;
+}
+
+.section-title-date {
+	color: #00b8f1;
+	font-size: 24px;
+    margin-right: 20px;
+    margin-top: 40px;
+    text-align: right;
 }
 
 .results-table {
@@ -605,12 +612,31 @@ hr {
     transition: background 0.5s ease-out;
 }
 
+.nextdoor a {
+	background: #038aa3;
+	border-radius: 50%;
+	color: white;
+	float: left;
+	margin-left: 10px;
+    padding: 5px;
+    padding-left: 7px;
+    width: 40px;
+    -webkit-transition: background 0.5s ease-out;
+    -moz-transition: background 0.5s ease-out;
+    -o-transition: background 0.5s ease-out;
+    transition: background 0.5s ease-out;
+}
+
 .facebook a:hover {
 	background: #3B5998;
 }
 
 .twitter a:hover {
 	background: #55acee;
+}
+
+.nextdoor a:hover {
+	background: #1e9e5e;
 }
 
 .nextdoor {
