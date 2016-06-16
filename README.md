@@ -1,4 +1,4 @@
 # dwa-2015-water-report-site
 dwa-2015-water-report-site
-simple html, csss site
+html, csss
 ![Alt text](screenshot.png)

@@ -5,6 +5,27 @@ body {
     background-position: center; 
 }
 
+.dyk-img {
+	background-image: url('../img/water-hands.png');
+    width: 170px;
+    height: 110px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-results {
+	background-color: rgba(3,138,163,0.5);
+	color: #fff;
+	margin: 10px;
+	position: absolute;
+}
+
+.btn-results:hover {
+	background-color: rgba(3,138,163,0.8);
+	color: #fff;
+}
+
 .information-list {
 	font-size: 16px;
 }
@@ -19,7 +40,7 @@ body {
 	background-image: url('../img/dwa-header.png');
 	background-repeat: no-repeat;
     background-position: center; 
-    height: 675px;
+    height: 435px;
     width: 100%;
 }
 
@@ -150,7 +171,6 @@ body {
 }
 
 .section-title {
-	/*background: #a7a9ab;*/
 	background: linear-gradient(90deg, #a7a9ab 98%, #00b8f1 2%);
 	color: #fff;
 	font-family: 'Kaushan Script', sans-serif;
@@ -168,7 +188,24 @@ body {
 
 .results-table {
 	margin-bottom: 30px;
-	width: 870px;;
+	width: 870px;
+	padding: 5px;
+	background: rgba(193,221,227, 0.8);
+}
+
+.table-img {
+	width: 860px;
+}
+
+.table-footer-txt {
+	color: black;
+	font-size: 11px;
+	text-align: center;
+}
+
+.table-bullet {
+	color: black;
+	padding: 0 10px 0 10px;
 }
 
 .water-icons {
@@ -201,25 +238,48 @@ body {
 	font-family: 'Kaushan Script', sans-serif;
 	font-size: 24px;
 	margin-top: -40px;
-	padding: 5px;
+	margin-left: 20px;
 	text-align: left;
+	margin-bottom: 0px;
+}
+
+.quality-title {
+	color: #fff;
+	float: left;
+	font-family: sans-serif;
+	font-size: 56px;
+	margin-left: 20px;
+	text-align: justify;
+	font-weight: 700;
+	margin-right: 30px;
+	line-height: 60px;
+}
+
+.delivered-text {
+	color: #d2d4d3;
+	padding: 10px;
+	font-weight: 700;
+	text-align: center;
+	font-size: 22px;
 }
 
 .wave-div-title {
 	background: url('../img/wave.png');
 	background-repeat: repeat-x;
-	margin-left: 10px;
-	width: 90%;
+	margin-left: 20px;
+	width: 80%;
 	height: 10px;
+	clear: both;
 }
 
 .wave-div-bottom {
 	background: url('../img/wave.png');
 	background-repeat: repeat-x;
-	margin-left: 100px;
-	margin-top: 30px;
-	width: 55%;
+	width: 50%;
 	height: 10px;
+	clear: both;
+	margin-left: 20px;
+	margin-top: -10px;
 }
 
 .wave-img-fix {
@@ -261,7 +321,7 @@ hr {
 
 .box-title {
 	margin-left: 10px;
-	height: 100px;
+	height: 70px;
 	width: 280px;
 }
 
@@ -421,7 +481,7 @@ hr {
 	background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 20px; 
-    height: 400px;
+    height: 380px;
     width: 100%;
 }
 
@@ -456,6 +516,7 @@ hr {
 
 .restrictions-title {
 	font-size: 20px;
+	text-align: left;
 }
 
 .restrictions-link {
@@ -554,7 +615,7 @@ hr {
 }
 
 .dwa-logo {
-	padding-top: 180px;
+	padding-top: 10px;
     margin-left: 50px;
 }
 
